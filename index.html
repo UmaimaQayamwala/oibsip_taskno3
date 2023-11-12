@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+</head>
+
+<body>
+    <div class="box">
+        <h2><i class="fa-solid fa-temperature-three-quarters"></i>&nbsp;Temperature converter</h2>
+
+        <div class="section">
+            <label for="value">Degree:</label>
+            <input type="number" value="0" id="value">
+        </div>
+        <div class="section">
+            Type:&nbsp;<select name="dropdown" id="dd">
+                <option value="celcius" id="celcius">Celsius</option>
+                <option value="fahrenheit" id="fahrenheit">Fahrenheit</option>
+            </select>
+        </div>
+        <div class="section">
+            Result:&nbsp;<p id="result"> </p>
+        </div>
+        <br>
+        <button id="convert">Convert</button>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
